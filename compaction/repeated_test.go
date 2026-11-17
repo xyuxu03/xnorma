@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnorma/llm"
 )
 
 // Simulates a long-running conversation that repeatedly grows past the auto

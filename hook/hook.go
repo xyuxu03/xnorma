@@ -8,7 +8,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnorma/llm"
 )
 
 // EventType enumerates the eight hook points (FR-08.2).

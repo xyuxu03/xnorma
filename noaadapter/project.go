@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/noa"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/noa"
 )
 
 // origin records where a projected core came from, so reassembly can put it

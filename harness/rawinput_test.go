@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/permission"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/permission"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 // A tool's InputSchema does two unrelated jobs: it tells the model what to send,

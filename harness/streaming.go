@@ -3,8 +3,8 @@ package harness
 import (
 	"sync"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 // streamExec is the streaming tool executor: tool_use blocks are registered as

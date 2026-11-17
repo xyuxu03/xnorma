@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/permission"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/permission"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 // recordingCompactor captures the lastInputTokens the loop passes to each Pre.

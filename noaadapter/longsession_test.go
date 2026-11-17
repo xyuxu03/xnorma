@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/noa"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/noa"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 // simAgent drives a scripted conversation through noa the way a real agent

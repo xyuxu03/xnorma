@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnorma/llm"
 )
 
 // The three harness-facing methods are the whole public surface between noa and

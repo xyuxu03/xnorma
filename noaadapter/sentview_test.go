@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/noa"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/noa"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 // Every pressure decision noa makes keys off ONE number: the token count View

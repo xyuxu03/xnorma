@@ -9,8 +9,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/noa"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/noa"
 )
 
 // buildWorkingSession runs a cooperative session far enough to have real blocks,

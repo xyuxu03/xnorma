@@ -9,8 +9,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/permission"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/permission"
 )
 
 // ProgressInfo is an incremental progress update emitted during a long tool run.

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnorma/llm"
 )
 
 func toolUse(id, name string) llm.Message {

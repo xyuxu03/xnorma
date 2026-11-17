@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnorma/llm"
 )
 
 // captureProvider records each request and yields a scripted reply, optionally

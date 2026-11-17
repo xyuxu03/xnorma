@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnorma/llm"
 )
 
 // Summary generation constants (== claude-code).

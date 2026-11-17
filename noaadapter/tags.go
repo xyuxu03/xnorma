@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/noa"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/noa"
 )
 
 // The ref tag tells the model how to address a message when compressing.

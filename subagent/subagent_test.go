@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/permission"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/permission"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 // fakeProvider always answers with a fixed line of text and ends the turn.

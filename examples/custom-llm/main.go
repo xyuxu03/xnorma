@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/xyuxu03/xnormal/agentcore"
-	"github.com/xyuxu03/xnormal/harness"
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/permission"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/agentcore"
+	"github.com/xyuxu03/xnorma/harness"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/permission"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 func newProvider() (llm.Provider, string) {

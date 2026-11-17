@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnorma/llm"
 )
 
 // raw builds a Compactor with the given cfg WITHOUT New's defaulting, so tests

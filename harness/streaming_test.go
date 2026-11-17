@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/permission"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/permission"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 // TestStreamingToolExecutionOverlapsStream proves FR-01.4: a read-only,

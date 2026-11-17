@@ -11,8 +11,8 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/xyuxu03/xnormal/permission"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/permission"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 // Approver is the host's plan-approval callback (a CLI prompt, a GUI, or an

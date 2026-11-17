@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnorma/llm"
 )
 
 // Summarizer condenses messages into a digest. Injected so the host controls

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 func TestSkillToolReturnsInstructions(t *testing.T) {

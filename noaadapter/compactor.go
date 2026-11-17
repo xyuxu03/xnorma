@@ -3,8 +3,8 @@ package noaadapter
 import (
 	"context"
 
-	"github.com/xyuxu03/xnormal/compaction"
-	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnorma/compaction"
+	"github.com/xyuxu03/xnorma/llm"
 )
 
 // Compactor adapts a Session to the harness's context-manager interfaces.

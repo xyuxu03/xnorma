@@ -30,7 +30,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnorma/llm"
 )
 
 // Record is one line of a JSONL transcript.

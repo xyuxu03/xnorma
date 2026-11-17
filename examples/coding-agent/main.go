@@ -23,13 +23,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xyuxu03/xnormal/agentcore"
-	"github.com/xyuxu03/xnormal/compaction"
-	"github.com/xyuxu03/xnormal/harness"
-	"github.com/xyuxu03/xnormal/hook"
-	"github.com/xyuxu03/xnormal/llm"
-	"github.com/xyuxu03/xnormal/permission"
-	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnorma/agentcore"
+	"github.com/xyuxu03/xnorma/compaction"
+	"github.com/xyuxu03/xnorma/harness"
+	"github.com/xyuxu03/xnorma/hook"
+	"github.com/xyuxu03/xnorma/llm"
+	"github.com/xyuxu03/xnorma/permission"
+	"github.com/xyuxu03/xnorma/tool"
 )
 
 func main() {
