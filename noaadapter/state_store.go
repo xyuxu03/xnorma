@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/xyuxu03/XNormal/noa"
+	"github.com/xyuxu03/xnormal/noa"
 )
 
 // stateFileVersion guards against silently misreading a future format.

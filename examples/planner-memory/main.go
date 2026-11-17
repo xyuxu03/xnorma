@@ -13,11 +13,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/xyuxu03/XNormal/agentcore"
-	"github.com/xyuxu03/XNormal/harness"
-	"github.com/xyuxu03/XNormal/llm"
-	"github.com/xyuxu03/XNormal/memory"
-	"github.com/xyuxu03/XNormal/permission"
+	"github.com/xyuxu03/xnormal/agentcore"
+	"github.com/xyuxu03/xnormal/harness"
+	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnormal/memory"
+	"github.com/xyuxu03/xnormal/permission"
 )
 
 func main() {

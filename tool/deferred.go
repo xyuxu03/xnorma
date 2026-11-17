@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xyuxu03/XNormal/permission"
+	"github.com/xyuxu03/xnormal/permission"
 )
 
 // Deferred tools: a mechanism to keep a tool callable while withholding its schema

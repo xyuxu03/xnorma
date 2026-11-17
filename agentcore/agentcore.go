@@ -14,15 +14,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xyuxu03/XNormal/compaction"
-	"github.com/xyuxu03/XNormal/harness"
-	"github.com/xyuxu03/XNormal/llm"
-	"github.com/xyuxu03/XNormal/memory"
-	"github.com/xyuxu03/XNormal/permission"
-	"github.com/xyuxu03/XNormal/plan"
-	"github.com/xyuxu03/XNormal/skill"
-	"github.com/xyuxu03/XNormal/tool"
-	"github.com/xyuxu03/XNormal/transcript"
+	"github.com/xyuxu03/xnormal/compaction"
+	"github.com/xyuxu03/xnormal/harness"
+	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnormal/memory"
+	"github.com/xyuxu03/xnormal/permission"
+	"github.com/xyuxu03/xnormal/plan"
+	"github.com/xyuxu03/xnormal/skill"
+	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnormal/transcript"
 )
 
 // Options configures a Session (FR-07).

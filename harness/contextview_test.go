@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/xyuxu03/XNormal/llm"
+	"github.com/xyuxu03/xnormal/llm"
 )
 
 // noopCompactor implements Compactor but NOT ContextView: the loop must fall

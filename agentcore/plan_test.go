@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/XNormal/harness"
-	"github.com/xyuxu03/XNormal/llm"
-	"github.com/xyuxu03/XNormal/permission"
-	"github.com/xyuxu03/XNormal/tool"
+	"github.com/xyuxu03/xnormal/harness"
+	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnormal/permission"
+	"github.com/xyuxu03/xnormal/tool"
 )
 
 // TestPlanModeGatesThenAllowsWrites proves the plan-mode lifecycle: a write is

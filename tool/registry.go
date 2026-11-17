@@ -1,6 +1,6 @@
 package tool
 
-import "github.com/xyuxu03/XNormal/llm"
+import "github.com/xyuxu03/xnormal/llm"
 
 // Registry is an ordered, name-indexed collection of tools (FR-04.3).
 type Registry struct {

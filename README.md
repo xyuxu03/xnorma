@@ -1,6 +1,6 @@
 # XNorma
 
-> Fork of [Autumn-27/norma](https://github.com/Autumn-27/norma), maintained at [xyuxu03/XNormal](https://github.com/xyuxu03/XNormal) for secondary development.
+> Fork of [Autumn-27/norma](https://github.com/Autumn-27/norma), maintained at [xyuxu03/xnormal](https://github.com/xyuxu03/xnormal) for secondary development.
 
 A general-purpose **Agent Harness SDK in Go**. XNorma is the engine that turns a language model into an autonomous agent: a streaming tool-use loop that lets a model read, run, and reason its way through a task while you keep control of the prompt, the tools, and the safety boundary.
 
@@ -8,7 +8,7 @@ You point it at any model (via the **Anthropic** *or* **OpenAI** wire format), d
 
 **What you get out of the box:** dual-format streaming, a fail-closed tool system with the standard file/shell toolset, a four-stage permission pipeline, automatic context-window management, lifecycle hooks, subagents, MCP, plan mode, long-term memory, a skill system, background tasks, and multi-agent coordination — all behind one stateful `Session`.
 
-Module path: `github.com/xyuxu03/XNormal` · Go 1.23+ (uses `iter`).
+Module path: `github.com/xyuxu03/xnormal` · Go 1.23+ (uses `iter`).
 
 ## Packages
 

@@ -4,7 +4,7 @@ import (
 	"sort"
 	"unicode/utf8"
 
-	"github.com/xyuxu03/XNormal/noa"
+	"github.com/xyuxu03/xnormal/noa"
 )
 
 const (

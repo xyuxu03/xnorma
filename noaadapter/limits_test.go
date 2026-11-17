@@ -7,8 +7,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/xyuxu03/XNormal/llm"
-	"github.com/xyuxu03/XNormal/noa"
+	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnormal/noa"
 )
 
 func opaqueHistory() []llm.Message {

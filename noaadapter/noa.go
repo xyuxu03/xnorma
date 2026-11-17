@@ -1,9 +1,9 @@
 package noaadapter
 
 import (
-	"github.com/xyuxu03/XNormal/agentcore"
-	"github.com/xyuxu03/XNormal/noa"
-	"github.com/xyuxu03/XNormal/tool"
+	"github.com/xyuxu03/xnormal/agentcore"
+	"github.com/xyuxu03/xnormal/noa"
+	"github.com/xyuxu03/xnormal/tool"
 )
 
 // Enable wires noa into a set of agentcore Options.

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/XNormal/noa"
+	"github.com/xyuxu03/xnormal/noa"
 )
 
 // Multi-tier compression is what keeps summaries from accumulating without

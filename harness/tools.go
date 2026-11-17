@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/xyuxu03/XNormal/llm"
-	"github.com/xyuxu03/XNormal/permission"
-	"github.com/xyuxu03/XNormal/tool"
+	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnormal/permission"
+	"github.com/xyuxu03/xnormal/tool"
 )
 
 // rawInputTool is the optional opt-out from schema validation. Discovered by

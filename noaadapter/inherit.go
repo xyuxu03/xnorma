@@ -3,7 +3,7 @@ package noaadapter
 import (
 	"path/filepath"
 
-	"github.com/xyuxu03/XNormal/noa"
+	"github.com/xyuxu03/xnormal/noa"
 )
 
 // maxInheritDepth bounds the walk up the parent chain. Deep enough for any real

@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/xyuxu03/XNormal/permission"
+	"github.com/xyuxu03/xnormal/permission"
 )
 
 // The interactive-shell tool family (opt-in; NOT in DefaultTools). ShellSessionTools

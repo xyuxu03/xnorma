@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/xyuxu03/XNormal/llm"
-	"github.com/xyuxu03/XNormal/permission"
-	"github.com/xyuxu03/XNormal/tool"
+	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnormal/permission"
+	"github.com/xyuxu03/xnormal/tool"
 )
 
 // echoProvider answers each worker with text derived from the task's last user

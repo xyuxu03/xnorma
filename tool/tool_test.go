@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/XNormal/permission"
+	"github.com/xyuxu03/xnormal/permission"
 )
 
 func run(t *testing.T, tl CoreTool, dir string, in any) Result {

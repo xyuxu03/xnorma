@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/XNormal/agentcore"
-	"github.com/xyuxu03/XNormal/llm"
-	"github.com/xyuxu03/XNormal/noa"
-	"github.com/xyuxu03/XNormal/tool"
+	"github.com/xyuxu03/xnormal/agentcore"
+	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnormal/noa"
+	"github.com/xyuxu03/xnormal/tool"
 )
 
 // pressureSession builds a session whose view is large enough to sit in the

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/XNormal/llm"
+	"github.com/xyuxu03/xnormal/llm"
 )
 
 // recSummarizer records calls and the messages it was handed.

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xyuxu03/XNormal/permission"
+	"github.com/xyuxu03/xnormal/permission"
 )
 
 // TodoStatus is the state of a todo item.

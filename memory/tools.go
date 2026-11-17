@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xyuxu03/XNormal/permission"
-	"github.com/xyuxu03/XNormal/tool"
+	"github.com/xyuxu03/xnormal/permission"
+	"github.com/xyuxu03/xnormal/tool"
 )
 
 // Tools returns the RecallMemory and RecordMemory tools bound to a store.

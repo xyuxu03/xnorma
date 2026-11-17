@@ -3,10 +3,10 @@ package agentcore
 import (
 	"testing"
 
-	"github.com/xyuxu03/XNormal/compaction"
-	"github.com/xyuxu03/XNormal/harness"
-	"github.com/xyuxu03/XNormal/llm"
-	"github.com/xyuxu03/XNormal/tool"
+	"github.com/xyuxu03/xnormal/compaction"
+	"github.com/xyuxu03/xnormal/harness"
+	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnormal/tool"
 )
 
 // noa is opt-in: a host that never calls noaadapter.Enable must get exactly the

@@ -6,7 +6,7 @@
 // of Events and threads context cancellation throughout.
 package harness
 
-import "github.com/xyuxu03/XNormal/llm"
+import "github.com/xyuxu03/xnormal/llm"
 
 // EventKind classifies a loop Event.
 type EventKind string

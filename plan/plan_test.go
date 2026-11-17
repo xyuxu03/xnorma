@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/XNormal/permission"
-	"github.com/xyuxu03/XNormal/tool"
+	"github.com/xyuxu03/xnormal/permission"
+	"github.com/xyuxu03/xnormal/tool"
 )
 
 func TestControllerTransitions(t *testing.T) {

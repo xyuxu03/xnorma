@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/XNormal/harness"
-	"github.com/xyuxu03/XNormal/llm"
-	"github.com/xyuxu03/XNormal/permission"
-	"github.com/xyuxu03/XNormal/tool"
-	"github.com/xyuxu03/XNormal/transcript"
+	"github.com/xyuxu03/xnormal/harness"
+	"github.com/xyuxu03/xnormal/llm"
+	"github.com/xyuxu03/xnormal/permission"
+	"github.com/xyuxu03/xnormal/tool"
+	"github.com/xyuxu03/xnormal/transcript"
 )
 
 // textServer replies with a single end_turn text message carrying usage.

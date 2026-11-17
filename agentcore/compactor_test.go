@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xyuxu03/XNormal/compaction"
-	"github.com/xyuxu03/XNormal/harness"
-	"github.com/xyuxu03/XNormal/llm"
+	"github.com/xyuxu03/xnormal/compaction"
+	"github.com/xyuxu03/xnormal/harness"
+	"github.com/xyuxu03/xnormal/llm"
 )
 
 type stubCompactor struct{}

@@ -1,4 +1,4 @@
-module github.com/xyuxu03/XNormal
+module github.com/xyuxu03/xnormal
 
 go 1.26.3
 
