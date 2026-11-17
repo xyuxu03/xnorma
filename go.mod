@@ -1,4 +1,4 @@
-module github.com/Autumn-27/norma
+module github.com/xyuxu03/XNormal
 
 go 1.26.3
 

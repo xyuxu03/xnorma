@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Autumn-27/norma/noa"
-	"github.com/Autumn-27/norma/tool"
+	"github.com/xyuxu03/XNormal/noa"
+	"github.com/xyuxu03/XNormal/tool"
 )
 
 func deadRanges(refs ...[2]string) []noa.CompressRange {

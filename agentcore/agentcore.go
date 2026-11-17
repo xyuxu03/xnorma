@@ -14,15 +14,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Autumn-27/norma/compaction"
-	"github.com/Autumn-27/norma/harness"
-	"github.com/Autumn-27/norma/llm"
-	"github.com/Autumn-27/norma/memory"
-	"github.com/Autumn-27/norma/permission"
-	"github.com/Autumn-27/norma/plan"
-	"github.com/Autumn-27/norma/skill"
-	"github.com/Autumn-27/norma/tool"
-	"github.com/Autumn-27/norma/transcript"
+	"github.com/xyuxu03/XNormal/compaction"
+	"github.com/xyuxu03/XNormal/harness"
+	"github.com/xyuxu03/XNormal/llm"
+	"github.com/xyuxu03/XNormal/memory"
+	"github.com/xyuxu03/XNormal/permission"
+	"github.com/xyuxu03/XNormal/plan"
+	"github.com/xyuxu03/XNormal/skill"
+	"github.com/xyuxu03/XNormal/tool"
+	"github.com/xyuxu03/XNormal/transcript"
 )
 
 // Options configures a Session (FR-07).

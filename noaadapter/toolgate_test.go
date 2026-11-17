@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Autumn-27/norma/noa"
-	"github.com/Autumn-27/norma/permission"
-	"github.com/Autumn-27/norma/tool"
+	"github.com/xyuxu03/XNormal/noa"
+	"github.com/xyuxu03/XNormal/permission"
+	"github.com/xyuxu03/XNormal/tool"
 )
 
 // harness.execOne validates a call against the tool's InputSchema before

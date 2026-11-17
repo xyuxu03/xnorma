@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/Autumn-27/norma/tool"
+	"github.com/xyuxu03/XNormal/tool"
 )
 
 // The WebFetch* options reach the WebFetch tool built by NewSession.

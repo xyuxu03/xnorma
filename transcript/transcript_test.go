@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Autumn-27/norma/llm"
+	"github.com/xyuxu03/XNormal/llm"
 )
 
 func TestRecordAndLoadRoundTrip(t *testing.T) {

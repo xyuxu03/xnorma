@@ -10,7 +10,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/Autumn-27/norma/noa"
+	"github.com/xyuxu03/XNormal/noa"
 )
 
 // DeriveMessageID computes a message's stable identity.
