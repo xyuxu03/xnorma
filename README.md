@@ -1,6 +1,8 @@
-# Norma
+# XNorma
 
-A general-purpose **Agent Harness SDK in Go**. Norma is the engine that turns a language model into an autonomous agent: a streaming tool-use loop that lets a model read, run, and reason its way through a task while you keep control of the prompt, the tools, and the safety boundary.
+> Fork of [Autumn-27/norma](https://github.com/Autumn-27/norma), maintained at [xyuxu03/XNormal](https://github.com/xyuxu03/XNormal) for secondary development.
+
+A general-purpose **Agent Harness SDK in Go**. XNorma is the engine that turns a language model into an autonomous agent: a streaming tool-use loop that lets a model read, run, and reason its way through a task while you keep control of the prompt, the tools, and the safety boundary.
 
 You point it at any model (via the **Anthropic** *or* **OpenAI** wire format), drive it with a **host-controlled system prompt**, and extend it with your own tools, permission policy, hooks, and subagents. It ships as a focused, near-dependency-free library — the loop, scheduler, and safety boundary are provider- and scenario-agnostic: they don't know whether they're driving a coding agent, a security auditor, or a customer-support bot.
 
