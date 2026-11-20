@@ -54,6 +54,11 @@ type WebFetchConfig struct {
 	// without Proxy or CACert: with DialContext set (and no InsecureTLS) it uses
 	// the http.DefaultTransport clone, keep-alive disabled.
 	DisableDirectRetry bool
+	// UserAgent, when non-empty, is sent as the User-Agent header on every
+	// fetch (and on the direct-retry fetch). Empty keeps the built-in default
+	// ("norma/0.4"). Callers that want target traffic to look like a real
+	// browser should set this to a browser-style UA string.
+	UserAgent string
 }
 
 // NewWebFetch builds the WebFetch tool: fetches a URL over HTTP(S) and returns
@@ -213,6 +218,13 @@ func webFetchRunner(cfg WebFetchConfig) func(context.Context, json.RawMessage, *
 	// otherwise-reachable URL. nil when no proxy is configured (nothing to bypass)
 	// or when DisableDirectRetry is set.
 	direct := newDirectClient(cfg)
+	// ua is the User-Agent sent on every fetch: the configured value, or the
+	// built-in default when unset. A caller who wants target traffic to blend
+	// in sets cfg.UserAgent to a browser-style string.
+	ua := cfg.UserAgent
+	if ua == "" {
+		ua = "norma/0.4"
+	}
 	return func(ctx context.Context, input json.RawMessage, _ *ToolContext) (Result, error) {
 		var in struct {
 			URL     string `json:"url"`
@@ -233,14 +245,14 @@ func webFetchRunner(cfg WebFetchConfig) func(context.Context, json.RawMessage, *
 		if err != nil {
 			return Errorf("Error: " + err.Error()), nil
 		}
-		req.Header.Set("user-agent", "norma/0.4")
+		req.Header.Set("user-agent", ua)
 		resp, err := client.Do(req)
 		// One direct retry when the proxied attempt failed for a proxy-caused reason.
 		// A non-proxy error (bad host, caller timeout/cancel) is returned as-is — a
 		// direct retry wouldn't fix it. The direct response is NOT captured by the proxy.
 		if err != nil && direct != nil && proxyLikelyErr(err) {
 			if r2, e2 := http.NewRequestWithContext(cctx, http.MethodGet, in.URL, nil); e2 == nil {
-				r2.Header.Set("user-agent", "norma/0.4")
+				r2.Header.Set("user-agent", ua)
 				if resp2, err2 := direct.Do(r2); err2 == nil {
 					resp, err = resp2, nil
 				} else {
